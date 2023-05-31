@@ -29,6 +29,7 @@ struct ContentView: View {
                     Label("Akshaj", systemImage: "figure.mind.and.body")
                 }
         }
+        .tabViewStyle(.page)
     }
 }
 
