@@ -11,8 +11,7 @@ import Subsonic
 struct ContentView: View {
     var body: some View {
         TabView {
-            //            GidView()
-            Text("IDK")
+            GidView()
                 .tabItem {
                     Label("Gideon", systemImage: "pc")
                 }

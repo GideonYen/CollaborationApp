@@ -52,6 +52,23 @@ struct AdvaitView: View {
                             Text("Kaskade - More (feat. Jenn Blosil)")
                                 .foregroundColor(.white)
                         }.padding()
+                        HStack {
+                            Image(systemName: "bag")
+                                .foregroundColor(.white)
+                            Text("I like to travel")
+                                .foregroundColor(.white)
+                        }.padding()
+                        HStack {
+                            Image(systemName: "link")
+                                .foregroundColor(.white)
+                            Text("My Website")
+                                .foregroundColor(.white)
+                        }.padding()
+                            .onTapGesture {
+                                if let url = URL(string: "https://github.com/contyadvait") {
+                                    UIApplication.shared.open(url)
+                                }
+                            }
                     }
                 }
             }
