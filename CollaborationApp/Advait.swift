@@ -23,8 +23,9 @@ struct AdvaitView: View {
                         .frame(width: 350, height: 500)
                         .cornerRadius(20)
                     VStack {
-                        Text("Like communi")
-                            .foregroundColor(.white)
+                        HStack {
+                            
+                        }
                     }
                 }
             }
