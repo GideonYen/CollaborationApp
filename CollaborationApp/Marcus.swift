@@ -18,7 +18,10 @@ struct MarcsView: View {
             VStack {
                 Text("Marcus")
                     .font(.largeTitle)
+                    .padding()
                 
+                Text("Warm gradient looks familiar")
+                    .padding()
             }
         }
     }
