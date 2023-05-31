@@ -22,6 +22,17 @@ struct MarcsView: View {
                 
                 Text("Warm gradient looks familiar")
                     .padding()
+    
+                Rectangle()
+                    .foregroundColor(.black)
+                    .frame(width: 350, height: 500)
+                    .cornerRadius(20)
+                    .padding()
+                    .opacity(0.25)
+                
+                VStack {
+                    Text("Bruh ran out of time")
+                }
             }
         }
     }
