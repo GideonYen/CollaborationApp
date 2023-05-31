@@ -17,6 +17,7 @@
 		F18471AA2A27159D00DFBFA2 /* Gideon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18471A92A27159D00DFBFA2 /* Gideon.swift */; };
 		F18471AF2A271D4E00DFBFA2 /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = F18471AE2A271D4E00DFBFA2 /* Subsonic */; };
 		F18471B32A27210300DFBFA2 /* Cupid-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F18471B22A27210200DFBFA2 /* Cupid-2.mp3 */; };
+		F18471B52A2724F000DFBFA2 /* More.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F18471B42A2724F000DFBFA2 /* More.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F18471A72A27158D00DFBFA2 /* Akshaj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Akshaj.swift; sourceTree = "<group>"; };
 		F18471A92A27159D00DFBFA2 /* Gideon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gideon.swift; sourceTree = "<group>"; };
 		F18471B22A27210200DFBFA2 /* Cupid-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cupid-2.mp3"; sourceTree = "<group>"; };
+		F18471B42A2724F000DFBFA2 /* More.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = More.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				F18471A72A27158D00DFBFA2 /* Akshaj.swift */,
 				F18471A92A27159D00DFBFA2 /* Gideon.swift */,
 				9F72300A2A271443003ABADD /* Assets.xcassets */,
+				F18471B42A2724F000DFBFA2 /* More.mp3 */,
 				F18471B22A27210200DFBFA2 /* Cupid-2.mp3 */,
 				9F72300C2A271443003ABADD /* Preview Content */,
 			);
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F72300E2A271443003ABADD /* Preview Assets.xcassets in Resources */,
+				F18471B52A2724F000DFBFA2 /* More.mp3 in Resources */,
 				9F72300B2A271443003ABADD /* Assets.xcassets in Resources */,
 				F18471B32A27210300DFBFA2 /* Cupid-2.mp3 in Resources */,
 			);
