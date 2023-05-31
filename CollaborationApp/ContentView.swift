@@ -28,7 +28,7 @@ struct ContentView: View {
                 .tabItem {
                     Label("Marcus", systemImage: "person")
                 }
-            Text("This is person 3! Replace me with yet another view.")
+            Akshaj()
                 .tabItem {
                     Label("Akshaj", systemImage: "figure.mind.and.body")
                 }
