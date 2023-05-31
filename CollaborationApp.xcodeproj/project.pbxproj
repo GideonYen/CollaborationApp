@@ -15,6 +15,8 @@
 		F18471A62A27157F00DFBFA2 /* Marcus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18471A52A27157F00DFBFA2 /* Marcus.swift */; };
 		F18471A82A27158D00DFBFA2 /* Akshaj.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18471A72A27158D00DFBFA2 /* Akshaj.swift */; };
 		F18471AA2A27159D00DFBFA2 /* Gideon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18471A92A27159D00DFBFA2 /* Gideon.swift */; };
+		F18471AF2A271D4E00DFBFA2 /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = F18471AE2A271D4E00DFBFA2 /* Subsonic */; };
+		F18471B32A27210300DFBFA2 /* Cupid-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F18471B22A27210200DFBFA2 /* Cupid-2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,7 @@
 		F18471A52A27157F00DFBFA2 /* Marcus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marcus.swift; sourceTree = "<group>"; };
 		F18471A72A27158D00DFBFA2 /* Akshaj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Akshaj.swift; sourceTree = "<group>"; };
 		F18471A92A27159D00DFBFA2 /* Gideon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gideon.swift; sourceTree = "<group>"; };
+		F18471B22A27210200DFBFA2 /* Cupid-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cupid-2.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F18471AF2A271D4E00DFBFA2 /* Subsonic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +70,7 @@
 				F18471A72A27158D00DFBFA2 /* Akshaj.swift */,
 				F18471A92A27159D00DFBFA2 /* Gideon.swift */,
 				9F72300A2A271443003ABADD /* Assets.xcassets */,
+				F18471B22A27210200DFBFA2 /* Cupid-2.mp3 */,
 				9F72300C2A271443003ABADD /* Preview Content */,
 			);
 			path = CollaborationApp;
@@ -95,6 +100,9 @@
 			dependencies = (
 			);
 			name = CollaborationApp;
+			packageProductDependencies = (
+				F18471AE2A271D4E00DFBFA2 /* Subsonic */,
+			);
 			productName = CollaborationApp;
 			productReference = 9F7230032A271442003ABADD /* CollaborationApp.app */;
 			productType = "com.apple.product-type.application";
@@ -123,6 +131,9 @@
 				Base,
 			);
 			mainGroup = 9F722FFA2A271442003ABADD;
+			packageReferences = (
+				F18471AD2A271D4E00DFBFA2 /* XCRemoteSwiftPackageReference "Subsonic" */,
+			);
 			productRefGroup = 9F7230042A271442003ABADD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,6 +150,7 @@
 			files = (
 				9F72300E2A271443003ABADD /* Preview Assets.xcassets in Resources */,
 				9F72300B2A271443003ABADD /* Assets.xcassets in Resources */,
+				F18471B32A27210300DFBFA2 /* Cupid-2.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +365,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F18471AD2A271D4E00DFBFA2 /* XCRemoteSwiftPackageReference "Subsonic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/Subsonic";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F18471AE2A271D4E00DFBFA2 /* Subsonic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F18471AD2A271D4E00DFBFA2 /* XCRemoteSwiftPackageReference "Subsonic" */;
+			productName = Subsonic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9F722FFB2A271442003ABADD /* Project object */;
 }

@@ -6,22 +6,32 @@
 //
 
 import SwiftUI
+import Subsonic
 
 struct ContentView: View {
     var body: some View {
         TabView {
-        Text("This is person 1! Replace me with a view.")
-        .tabItem {
-        Label("Person 1", systemImage: "person.circle.fill")
-        }
-        Text("This is person 2! Replace me with another view.")
-        .tabItem {
-        Label("Person 1", systemImage: "person")
-        }
-        Text("This is person 3! Replace me with yet another view.")
-        .tabItem {
-        Label("Person 1", systemImage: "person.fill.turn.down")
-        }
+            //            GidView()
+            Text("IDK")
+                .tabItem {
+                    Label("Gideon", systemImage: "pc")
+                }
+            
+            AdvaitView()
+                .onAppear() {
+                    play(sound: "Cupid-2.mp3")
+                }
+                .tabItem {
+                    Label("Advait", systemImage: "macpro.gen3")
+                }
+            Text("This is person 3! Replace me with yet another view.")
+                .tabItem {
+                    Label("Marcus", systemImage: "person")
+                }
+            Text("This is person 3! Replace me with yet another view.")
+                .tabItem {
+                    Label("Akshaj", systemImage: "figure.mind.and.body")
+                }
         }
     }
 }
