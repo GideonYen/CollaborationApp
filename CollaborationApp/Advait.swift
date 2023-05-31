@@ -3,6 +3,7 @@ import Subsonic
 
 struct AdvaitView: View {
     @State var isPlaying = false
+    @State var openSheet = true
     var body: some View {
         ZStack {
             LinearGradient(colors: [Color("Advait"), .red], startPoint: .topLeading, endPoint: .bottomTrailing)
@@ -61,13 +62,22 @@ struct AdvaitView: View {
                         HStack {
                             Image(systemName: "link")
                                 .foregroundColor(.white)
-                            Text("My Website")
+                            Text("My Github")
                                 .foregroundColor(.white)
                         }.padding()
                             .onTapGesture {
                                 if let url = URL(string: "https://github.com/contyadvait") {
                                     UIApplication.shared.open(url)
                                 }
+                            }
+                        HStack {
+                            Image(systemName: "gamecontroller")
+                                .foregroundColor(.white)
+                            Text("My quiz app")
+                                .foregroundColor(.white)
+                        }.padding()
+                            .onTapGesture {
+                                exit(0)
                             }
                     }
                 }
