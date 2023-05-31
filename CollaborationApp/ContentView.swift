@@ -18,9 +18,6 @@ struct ContentView: View {
                 }
             
             AdvaitView()
-                .onAppear() {
-                    play(sound: "More.mp3")
-                }
                 .tabItem {
                     Label("Advait", systemImage: "macpro.gen3")
                 }
